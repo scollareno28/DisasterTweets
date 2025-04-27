@@ -22,14 +22,7 @@ The dataset consists of labeled tweets with:
 - `text`: The tweet content
 - `target`: 1 if the tweet is about a real disaster, 0 otherwise
 
-Example entries:
 
-| text                             | target |
-|----------------------------------|--------|
-| Just happened a terrible car crash | 1 |
-| What a lovely day!               | 0 |
-
-*(Dataset source: [Kaggle - Real or Not? NLP with Disaster Tweets](https://www.kaggle.com/c/nlp-getting-started))*
 
 ## Features
 
@@ -64,11 +57,7 @@ Example entries:
 ## Results
 
 The best performing model achieved the following results:
-
-- **Training Accuracy:** ~95%
-- **Validation Accuracy:** ~93%
-- **Precision:** 92%
-- **Recall:** 91%
+79% accuracy but in the Kaggle competition it was 74%
 - **F1-Score:** 91.5%
 
 The model demonstrated strong generalization capability, successfully distinguishing disaster-related tweets from normal tweets.
